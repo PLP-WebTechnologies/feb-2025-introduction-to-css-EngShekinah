@@ -1,0 +1,88 @@
+/* Import Comic Neue font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaf2f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Styling for a class */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for an ID */
+#main-title {
+    font-size: 2.5rem;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Styling an image */
+.image-style {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 8px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for a paragraph */
+p {
+    font-family: 'Comic Neue', cursive; /* Fun font */
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 10px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Styling for a romantic poem paragraph */
+.poem {
+    font-family: 'Comic Neue', cursive; /* Fun and romantic font */
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #8e44ad; /* Romantic purple color */
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f3fc; /* Light purple background */
+    border: 2px solid #dcd6f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for images */
+.image-style:hover {
+    border-color: #3498db;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add a footer style */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #34495e;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    border-top: 3px solid #2c3e50;
+}
